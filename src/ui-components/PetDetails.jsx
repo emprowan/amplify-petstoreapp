@@ -20,6 +20,7 @@ export default function PetDetails(props) {
       justifyContent="flex-start"
       alignItems="center"
       position="relative"
+      borderRadius="25px"
       padding="0px 0px 0px 0px"
       {...rest}
       {...getOverrideProps(overrides, "PetDetails")}

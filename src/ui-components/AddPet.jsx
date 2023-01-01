@@ -318,7 +318,7 @@ export default function AddPet(props) {
             {...getOverrideProps(overrides, "TextField36672717")}
           ></TextField>
           <TextField
-            label="Image"
+            label="Image URL"
             placeholder="image-url"
             width="unset"
             shrink="0"
