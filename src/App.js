@@ -151,10 +151,11 @@ function App({ user, signOut }) {
                 setColor(item.color);
                 setImage(item.image);
                 setPetType(item.PetType);
-              }
+                window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
             },
           },
-        })}
+        },
+      })}
         itemsPerPage={3}
         width={"100%"}/>
       </header>
