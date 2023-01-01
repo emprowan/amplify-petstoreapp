@@ -137,6 +137,7 @@ function App({ user, signOut }) {
           overrides: {
             Button36532689: {
               onClick: () => {
+              setShowForm(false);
               setShowDetails(true);
               setPet(item);
               window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -145,6 +146,7 @@ function App({ user, signOut }) {
             Button36532699: {
               onClick: () => {
                 if (!showForm) setShowForm(true);
+                setShowDetails(false);
                 setUpdatePet(item);
                 setName(item.name);
                 setAbout(item.about);
