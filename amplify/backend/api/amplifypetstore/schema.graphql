@@ -6,5 +6,4 @@ type Pet @model @auth(rules: [{allow: public}]) {
   color: String
   about: String
   PetType: String
-}
- 
+} 
