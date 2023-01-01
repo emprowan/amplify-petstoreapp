@@ -138,7 +138,8 @@ function App({ user, signOut }) {
             Button36532689: {
               onClick: () => {
               setShowDetails(true);
-              setPet(item)
+              setPet(item);
+              window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
               }
             },
             Button36532699: {
